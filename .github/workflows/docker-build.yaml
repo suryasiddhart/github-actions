@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: suryasiddhart/action-manifests
-          #token: ${{ secrets.TARGET_REPO_TOKEN }}
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
           #path: .
 
 
